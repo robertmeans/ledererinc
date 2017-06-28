@@ -2,8 +2,9 @@
 <?php require('_includes/head.php'); ?>
 <body>
 <div id="top-of-page"></div>
-<a href="#" class="back-to-top"><i class="fa fa-home"></i></a>
+<a href="#" class="back-to-top">Top</a>
 <div id="wrapper">
+<span onclick="openNav()" class="mobile-toggle"><img src="_images/mobile-nav-icon.png"></span>
 <?php require('_includes/nav.php'); ?>
 
 <section id="about">

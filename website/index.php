@@ -2,15 +2,30 @@
 <?php require('_includes/head.php'); ?>
 <body>
 <div id="top-of-page"></div>
-<a href="#" class="back-to-top"><i class="fa fa-home"></i></a>
+<a href="#" class="back-to-top">Top</a>
 <div id="wrapper">
+
+<span onclick="openNav()" class="mobile-toggle"><img src="_images/mobile-nav-icon.png"></span>
+
 <?php require('_includes/nav.php'); ?>
-<a href="#"><img class="lederer-hero-logo" src="_images/Lederer-Inc-Logo.jpg"></a>
+<img class="lederer-hero-logo" src="_images/Lederer-Inc-Logo.jpg">
 <section id="hero">
 
 	<div id="hero-overlay">
-		<p>Ready to serve with:</p>
-		<p>Proactive Restoration for the Future</p>
+		<span class="position-overlay-text">
+			<p>Ready to serve with:</p>
+			<ul>
+				<li>Predistrubance Monitoring</li>
+				<li>Soil Sampling</li>
+				<li>Ground Preperation</li>
+			</ul>
+			<ul>
+				<li>Seeding</li>
+				<li>Mulching</li>
+				<li>Monitoring/Data Collection</li>
+			</ul>	
+		</span>
+			<p class="cursive">Proactive Restoration for the Future</p>
 	</div>
 </section>
 <?php require('_includes/services.php'); ?>

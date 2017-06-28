@@ -68,7 +68,7 @@
     local instructions in: Tools/PHP FormMail
     */
 
-    $my_email = "robert@robertmeans.com";
+    $my_email = "craig@ledererinc.com";
     // $my_email = "robert@robertmeans.com";
     /* let visitor fill in the "from" field - leave string below empty */
     $from_email = "";
@@ -160,7 +160,7 @@
 
     $headers = "From: {$from_name} <{$_REQUEST['email']}>"."\r\n";
     /* BCC if needed */
-    // $headers .= "BCC: your@email.com\r\n";
+    $headers .= "BCC: robert@evergreenwebdesign.com\r\n";
 
     }
 

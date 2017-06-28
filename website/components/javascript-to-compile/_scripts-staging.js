@@ -238,6 +238,11 @@ $("#hero").backstretch([
 
 
 
+
+
+
+
+
 // begin - smooth scrolling for everyone!
 $(function(){ 
 
@@ -370,6 +375,15 @@ $(function() {
 
 
 
+
+
+
+
+
+
+
+
+
 $(document).ready(function(){
   $(".click").click(function(){
     
@@ -379,10 +393,9 @@ $(document).ready(function(){
 
 
 
-
-
 var btt = $('.back-to-top');
-// var LedererLogo = $('.lederer-nav-logo');
+var logoPlaceholder = $('.logo-placeholder');
+
 
 btt.on('click', function(e) {
 $('html, body').animate({
@@ -395,6 +408,7 @@ $('html, body').animate({
 $(window).on('scroll', function () {
   var self = $(this),
     height = self.height(),
+    width = self.width(),
     top = self.scrollTop();
 
     if(top > (.4 * height)) {
@@ -405,24 +419,54 @@ $(window).on('scroll', function () {
           btt.hide();
         }
 
-    // fade in Lederer logo
-    // if((top > (.2 * height)) && (width > 600)) {
 
-    //     if (!LedererLogo.is(':visible')) {
-    //       LedererLogo.fadeIn(500);
+
+// this works...
+// see line 1615 on EWD scripts.js
+    if((top < 360) && ((width > 834) && (width < 948))) {
+
+        if (!logoPlaceholder.is(':visible')) {
+          logoPlaceholder.show();
+        }
+      } else if((top < 515) && (width > 949)) {
+        if (!logoPlaceholder.is(':visible')) {
+          logoPlaceholder.show();
+        }
+      } else {
+          logoPlaceholder.hide();
+        }
+
+// before hacking begain this worked below 725 (which is 742 - 17)
+    // if((top < 650) && (width > 742)) {
+
+    //     if (!logoPlaceholder.is(':visible')) {
+    //       logoPlaceholder.show();
     //     }
     //   } else {
-    //       LedererLogo.fadeOut(500);
+    //       logoPlaceholder.hide();
     //     }
-
-
 
   }); 
 
 
 
-
 });
+
+
+// start mobile navigation -----------------------------------------
+/* Set the width of the side navigation to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+// end mobile navigation ----------------------------------------------
+
+
+
 
 $('#easy-as div a').click(function(){
     $(this).find('i').toggleClass('fa-minus fa-plus')
