@@ -50,11 +50,11 @@
 </div><!-- #wrapper -->
 
 <!-- to pacify active-nav js -->
-<section id="services" style="height: 0px;"></section>
-<section id="safety" style="height: 0px;"></section>
-<section id="associations" style="height: 0px;"></section>
-<section id="past-projects" style="height: 0px;"></section>
-<section id="contact" style="height: 0px;"></section>
+<section id="services" style="height: 0px; margin: 0px; padding: 0px;"></section>
+<section id="safety" style="height: 0px; margin: 0px; padding: 0px;"></section>
+<section id="associations" style="height: 0px; margin: 0px; padding: 0px;"></section>
+<section id="past-projects" style="height: 0px; margin: 0px; padding: 0px;"></section>
+<section id="contact" style="height: 0px; margin: 0px; padding: 0px;"></section>
 <!-- end -->
 <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
 <script src="js/scripts.js?<?php echo time(); ?>"></script>

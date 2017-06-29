@@ -32,8 +32,8 @@
 <?php require('_includes/safety.php'); ?>
 <?php require('_includes/associations.php'); ?>
 <!-- to pacify active-nav js -->
-<section id="past-projects" style="height: 0px;"></section>
-<section id="about" style="height: 0px;"></section>
+<section id="past-projects" style="height: 0px; margin: 0px; padding: 0px;"></section>
+<section id="about" style="height: 0px; margin: 0px; padding: 0px;"></section>
 <!-- end -->
 <section id="contact">
   <script>
