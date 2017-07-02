@@ -15,9 +15,9 @@
 		<span class="position-overlay-text">
 			<p>Ready to serve with:</p>
 			<ul>
-				<li>Predistrubance Monitoring</li>
+				<li>Pre-disturbance Monitoring</li>
 				<li>Soil Sampling</li>
-				<li>Ground Preperation</li>
+				<li>Ground Preparation</li>
 			</ul>
 			<ul>
 				<li>Seeding</li>

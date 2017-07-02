@@ -5,7 +5,7 @@
 <a href="#" class="back-to-top">Top</a>
 <div id="wrapper">
 <span onclick="openNav()" class="mobile-toggle"><img src="_images/mobile-nav-icon.png"></span>
-<?php require('_includes/nav.php'); ?>
+<?php require('_includes/nav2.php'); ?>
 
 <section id="about">
 	<h2>About Us</h2>
@@ -14,7 +14,7 @@
 		<h3>Our Mission</h3>
 		<p>Lederer, INC. is a company which believes that sounds science, conscientious preparation and a comprehensive understanding of the objectives of our clients and the directives of the regulatory agencies is essential to protecting and restoring our natural resources. </p>
 		<h3>What We Stand For</h3>
-		<p><img class="tractors" src="_images/tractors-02.png">Lederer, INC. understands there is a delicate balance between conservation and modern industry. This balance is necessary in order to maintain a high quality of life for future generations.<br />
+		<p><img class="tractors" src="_images/tractors-03.png">Lederer, INC. understands there is a delicate balance between conservation and modern industry. This balance is necessary in order to maintain a high quality of life for future generations.<br />
 		<br />
 		We are committed to using cutting-edge scientific technology and providing quality service with experience and knowledge.<br />
 		<br />
@@ -45,7 +45,6 @@
 	</span>
 <?php require('_includes/footer-alt.php'); ?>
 </section><!-- #about -->
-
 
 </div><!-- #wrapper -->
 

@@ -1,6 +1,5 @@
 <nav id="main-nav">
 	<ul>
-		<li class="logo-placeholder"></li>
 		<li><a href="index.php">Home</a></li>
 		<li><a href="index.php#services">Services</a></li>
 		<li><a href="index.php#safety">Safety</a></li>

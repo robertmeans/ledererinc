@@ -3,7 +3,7 @@
 	<h2>Services</h2>
 	<ul>
 		<li>
-			<h3>Relamation | Restoration</h3>
+			<h3>Reclamation | Restoration</h3>
 			<p>The process by which disturbed land surfaces by human construction or natural causes are stabilized against the hazards of water and wind erosion, most commonly done by vegetation establishment.</p>
 			<p>Oil and Gas drill sites and Pipelines, Highway corridors and Roadway disturbance, Open Space, New Construction sites, Wetlands Mitigation, and other areas as needed.</p> 
 			<p>Reclamation/Restoration Techniques:</p>
@@ -35,7 +35,7 @@
 				<li>Riprap</li>
 				<li>Hydro mulching</li>
 				<li>Flexamat</li>
-				<li>Goetextiles</li>
+				<li>Geotextiles</li>
 				<li>Straw crimping</li>
 				<li>Rock check dams</li>
 				<li>Vegetation planting</li>
