@@ -1,0 +1,4 @@
+[09-May-2017 16:37:03 UTC] PHP Warning:  include(_includes/footer.php): failed to open stream: No such file or directory in /home/robertmeans01/public_html/ledererllc.com/index.php on line 66
+[09-May-2017 16:37:03 UTC] PHP Warning:  include(): Failed opening '_includes/footer.php' for inclusion (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/robertmeans01/public_html/ledererllc.com/index.php on line 66
+[07-Jul-2017 16:28:25 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/robertmeans01/public_html/ledererllc.com/mail-to-me.php on line 23
+[08-Jul-2017 22:30:58 UTC] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /home/robertmeans01/public_html/ledererllc.com/css.php on line 9
