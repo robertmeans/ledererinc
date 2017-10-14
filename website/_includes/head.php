@@ -14,8 +14,9 @@
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="expires" content="0">
+	<title>Lederer, Inc. - Denver Colorado Erosion Control, Land Reclamantion, Habitat Restoration</title>
+	<meta name="description" content="Lederer, Inc. in Denver, Colorado provides land reclamation & erosion control services including excavation, revegetation and habitat restoration.">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Lederer, Inc. - Proactive Restoration for the Future</title>
 	<link rel="icon" type="image/ico" href="_images/favicon.ico">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css">
 	<link href='https://fonts.googleapis.com/css?family=Exo+2|Lato|Bilbo+Swash+Caps' rel='stylesheet' type='text/css'>

@@ -167,7 +167,9 @@
     mail($my_email,$subject,$message,$headers);
 
     // must exit the else statement so it does not print the form again
-    break;
+    // break;
+    // formerly used break; to end statement but turns out php7 chokes on that
+    return;
     }
 ?>
 <form action="index.php#contact" method="post" id="contactForm">
