@@ -6,7 +6,7 @@
   Contact:      robert@evergreenwebdesign.com
                 (303) WEBSITE
                 *that's (303) 932.7483
-  Last Update:  July 01, 2017
+  Last Update:  October 24, 2017
   Comments:     You look very nice today! :)
 -->
 <head>
@@ -15,7 +15,13 @@
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="expires" content="0">
 	<title>Lederer, Inc. - Denver Colorado Erosion Control, Land Reclamantion, Habitat Restoration</title>
+
+
+
 	<meta name="description" content="Lederer, Inc. in Denver, Colorado provides land reclamation & erosion control services including excavation, revegetation and habitat restoration.">
+
+
+	
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="icon" type="image/ico" href="_images/favicon.ico">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css">

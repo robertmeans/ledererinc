@@ -829,6 +829,7 @@ section h2 {
   border-radius: 18px;
   margin: 20px 15px;
   box-sizing: border-box;
+  padding-bottom: 1.5em;
 }
 #services ul:last-child {
   margin-right: 0;
@@ -842,9 +843,10 @@ section h2 {
   text-align: center;
   font-family: 'Lato', sans-serif;
   font-size: 1.5em;
+  margin-bottom: 10px;
 }
 #services ul li > p {
-  padding: 15px;
+  padding: 1em 25px;
 }
 #services ul ul {
   border: none;

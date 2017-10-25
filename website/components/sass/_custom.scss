@@ -400,6 +400,7 @@ section {
     border-radius: 18px;
     margin: 20px 15px;
     box-sizing: border-box;
+    padding-bottom: 1.5em;
     // margin-top: -20%;
     // margin-bottom: 10%;
 
@@ -418,9 +419,10 @@ section {
       text-align: center;
       font-family: 'Lato', sans-serif;
       font-size: 1.5em;
+      margin-bottom: 10px;
     }
     li > p {
-      padding: 15px;
+      padding: 1em 25px;
     }
     ul {
       border: none;
