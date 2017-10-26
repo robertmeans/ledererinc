@@ -35,32 +35,8 @@
 <section id="past-projects" style="height: 0px; margin: 0px; padding: 0px;"></section>
 <section id="about" style="height: 0px; margin: 0px; padding: 0px;"></section>
 <!-- end -->
-<section id="contact">
-  <script>
-    function recaptchaCallback() {
-        $('#confirm').addClass('display');
-        $('#send').removeAttr('disabled');
-        $('#send').removeClass('display');
-    };
-  </script>
-	<h2>Contact</h2>
-	<div id="contact-form">
-		<div class="left-side">
-			<p>5786 South Garland Way</p>
-			<p>Littleton, CO 80123</p>
-			<p>&nbsp;</p>
-			<p>Phone: 303.941.7817</p>
-			<p>Fax: 303.973.9358</p>
-		</div>
-		<div class="right-side">
-		<?php require('_includes/contact-form-processing.php'); ?>
-		    
-	    </div>
-	</div>
-	<footer>	
-		<p><?= ewd_copyright(2017); ?> Lederer, Inc. | <a class="footer-link" href="http://www.evergreenwebdesign.com" target="_blank">Evergreen Web Design</a></p>
-	</footer>
-</section><!-- #contact -->
+
+<?php require('_includes/footer.php'); ?><!-- includes #contact -->
 
 </div><!-- #wrapper -->
 

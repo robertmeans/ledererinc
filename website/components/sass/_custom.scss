@@ -267,6 +267,9 @@ a.active-nav-stay {
 #wrapper {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     // height: auto;
 }
 section#hero {
@@ -843,7 +846,7 @@ section#project-images {
     flex-direction: column;
     align-content: center;
     width: 90%;
-    margin: 30px auto 220px auto;
+    margin: 30px auto 280px auto;
     text-align: left;
     background-color: rgba(71,97,5,0.8);
     padding: 20px;
@@ -934,7 +937,7 @@ section#project-images {
   div#contact-form {
     display: flex;
     width: 80%;
-    margin: 30px auto 130px auto;
+    margin: 30px auto 180px auto;
     background-color: rgba(255,255,255,0.8);
     padding: 50px;
     border: 1px solid #313131;
@@ -1050,39 +1053,37 @@ span.success-msg {
   color: red;
 }
 footer {
-  font-size: .7em;
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 200px;
+  text-align: left;
+  // height: 200px;
   background-color: rgba(55,63,37,0.8);
   color: #d6e0c2;
   border-top: 2px solid yellow;
   z-index: 888;
-  text-align: right;
-  padding: 40px 60px 0px 0px;
+  padding: 30px 30px 60px;
   box-sizing: border-box;
-  a.footer-link {
-    color: inherit;
+  h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 1em;
+    color: #fff;
+  }
+  p.copyright {
+    text-align: right;
+    font-size: 0.7em;
+  }
+  a.additional-info {
+    color: #fff;
     text-decoration: none;
+    display: inline-block;
+    padding: 0px 0px 0.5em 0.5em;
     &:hover {
       text-decoration: underline;
     }
   }
-}
-footer#alt {
-  font-size: .7em;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 200px;
-  background-color: rgba(55,63,37,0.8);
-  color: #d6e0c2;
-  border-top: 2px solid yellow;
-  z-index: 888;
-  text-align: right;
-  padding: 40px 60px 0px 0px;
-  box-sizing: border-box;
   a.footer-link {
     color: inherit;
     text-decoration: none;
@@ -1092,6 +1093,4 @@ footer#alt {
   }
 }
 
-@media screen and (max-width: 460px) {
 
-}

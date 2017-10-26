@@ -14,14 +14,36 @@
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="expires" content="0">
-	<title>Lederer, Inc. - Denver Colorado Erosion Control, Land Reclamantion, Habitat Restoration</title>
+<?php
+switch ($layout_context) {
+    case 'hydro-mulching': ?>
 
+    <title>Lederer, Inc. - Denver Colorado Hydro-mulching</title>
+    <meta name="description" content="content here for hydro-mulching">
+    <?php
+        break;
 
+    case 'erosion-control': ?>
 
-	<meta name="description" content="Lederer, Inc. in Denver, Colorado provides land reclamation & erosion control services including excavation, revegetation and habitat restoration.">
+    <title>Lederer, Inc. - Denver Colorado Erosion Control</title>
+    <meta name="description" content="content here for Erosion Control">
+    <?php
+    	break;
+    case 'land-reclamation': ?>
 
+    <title>Lederer, Inc. - Denver Colorado Land Reclamation</title>
+    <meta name="description" content="content here for land reclamation">
+    <?php
+    	break;
+    default: ?>
 
-	
+    <title>Lederer, Inc. - Denver Colorado Erosion Control, Land Reclamantion, Habitat Restoration</title>
+    <meta name="description" content="Lederer, Inc. in Denver, Colorado provides land reclamation & erosion control services including excavation, revegetation and habitat restoration.">
+    <?php
+        break;
+}
+?>
+
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="icon" type="image/ico" href="_images/favicon.ico">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css">

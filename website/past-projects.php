@@ -499,7 +499,7 @@
 			
 	</section>
 
-<?php require('_includes/footer-alt.php'); ?>
+<?php require('_includes/footer.php'); ?>
 </section><!-- #past-projects -->
 
 </div><!-- #wrapper -->

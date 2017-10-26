@@ -1,4 +1,4 @@
-<?php $layout_context = "about"; ?>
+<?php $layout_context = "hydro-mulching"; ?>
 <?php require('_includes/head.php'); ?>
 <body>
 <div id="top-of-page"></div>
@@ -8,7 +8,7 @@
 <?php require('_includes/nav2.php'); ?>
 
 <section id="about">
-	<h2>About Us</h2>
+	<h2>Hydro-mulching</h2>
 	<span class="intro">
 		<p><img class="owners" src="_images/Surrane-Craig-Lederer.png" alt="Surrane and Craig Lederer">Lederer, Inc. is an independent contracting woman owned company with the goal of helping others, from large companies to private land owners who want to take a proactive approach to habitat reclamation and restoration improvement. Craig Lederer owner and operator and a 4th generation farmer/rancher brings an extensive agricultural background to successfully restore, manage and improve natural lands. Craig has been involved with habitat reclamation and restoration since 1995. Suranne Lederer, with a degree in chemistry has been a water quality chemist since 1990. Suranne has many years of experience in water quality and brings knowledge of quality standards, organization efficiency, and ensures the highest standard in the industry for all our products and services.</p>
 		<h3>Our Mission</h3>
