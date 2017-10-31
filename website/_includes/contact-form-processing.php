@@ -1,15 +1,4 @@
 <?php
-    function ewd_copyright($startYear) {
-        $currentYear = date('Y');
-        if ($startYear < $currentYear) {
-            $currentYear = date('y');
-            return "&copy; $startYear&ndash;$currentYear";
-        } else {
-            return "&copy; $startYear";
-        }
-    }
-?>
-        <?php
             function post_captcha($user_response) {
             $fields_string = '';
             $fields = array(
@@ -46,15 +35,11 @@
             echo '<span class="success-msg">Your message was sent successfully!<br />We will see it soon and respond accordingly.</span>'; ?>
             </div>
                 </div>
-                <footer>
-                     
+                <footer>   
                     <?php require('_includes/footer-content.php'); ?>
-                    
                 </footer>
             </section><!-- #contact -->
-
             </div><!-- #wrapper -->
-
             <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
             <script src="js/scripts.js?<?php echo time(); ?>"></script>
             <script src="http://localhost:35729/livereload.js"></script>    

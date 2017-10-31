@@ -35,9 +35,7 @@
 <section id="past-projects" style="height: 0px; margin: 0px; padding: 0px;"></section>
 <section id="about" style="height: 0px; margin: 0px; padding: 0px;"></section>
 <!-- end -->
-
 <?php require('_includes/footer.php'); ?><!-- includes #contact -->
-
 </div><!-- #wrapper -->
 
 <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
