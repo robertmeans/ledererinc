@@ -1,15 +1,4 @@
 <?php
-    function ewd_copyright($startYear) {
-        $currentYear = date('Y');
-        if ($startYear < $currentYear) {
-            $currentYear = date('y');
-            return "&copy; $startYear&ndash;$currentYear";
-        } else {
-            return "&copy; $startYear";
-        }
-    }
-?>
-        <?php
             function post_captcha($user_response) {
             $fields_string = '';
             $fields = array(
@@ -19,34 +8,38 @@
             foreach($fields as $key=>$value)
             $fields_string .= $key . '=' . $value . '&';
             $fields_string = rtrim($fields_string, '&');
+
             $ch = curl_init();
             curl_setopt($ch, CURLOPT_URL, 'https://www.google.com/recaptcha/api/siteverify');
             curl_setopt($ch, CURLOPT_POST, count($fields));
             curl_setopt($ch, CURLOPT_POSTFIELDS, $fields_string);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, True);
+
             $result = curl_exec($ch);
             curl_close($ch);
+
             return json_decode($result, true);
         }
+
         // Call the function post_captcha
         $res = post_captcha($_POST['g-recaptcha-response']);
-        if (!$res['success']) {
 
+        if (!$res['success']) {
+            unset($_POST['g-recaptcha-response']);
             // What happens when the CAPTCHA wasn't checked - Fallback validation
             // echo '<p style="color: red; padding: 10px; border: 1px solid red; background-color: white; float: left;"><b>Submission Unsuccessful</b><br />Please refresh and make sure you check the security CAPTCHA box.</p><br>';
+
             // All error checking is handled on the front end. No need for this.
+
         } else {
             echo '<span class="success-msg">Your message was sent successfully!<br />We will see it soon and respond accordingly.</span>'; ?>
             </div>
                 </div>
-                <footer>
-                     
-                    <p><?= ewd_copyright(2017); ?> Lederer, Inc. | <a class="footer-link" href="http://www.evergreenwebdesign.com" target="_blank">Evergreen Web Design</a></p>
+                <footer>   
+                    <?php require('_includes/footer-content.php'); ?>
                 </footer>
             </section><!-- #contact -->
-
             </div><!-- #wrapper -->
-
             <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
             <script src="js/scripts.js?<?php echo time(); ?>"></script>
             <script src="http://localhost:35729/livereload.js"></script>    
@@ -64,9 +57,8 @@
     }
 
     // $my_email = "craig@ledererinc.com";
-    $my_email = "craigandsuranne@gmail.com";
-    // for testing
-    // $my_email = "robert@robertmeans.com";
+    // for testing...
+    $my_email = "robert@robertmeans.com";
 
     // to let visitor fill in the "from" field leave string below empty 
     $from_email = "";
@@ -187,13 +179,16 @@
 
         $headers = "From: {$from_name} <{$_REQUEST['email']}>"."\r\n";
         /* BCC if needed */
-        $headers .= "BCC: robert@evergreenwebdesign.com\r\n";
+        // $headers .= "BCC: your@email.com\r\n";
 
         }
 
         mail($my_email,$subject,$message,$headers);
+
     // must exit the else statement so it does not print the form again
-    break;
+    // break;
+    // formerly used break; to end statement but turns out php7 chokes on that
+    return;
     }
 ?>
 <form action="index.php#contact" method="post" id="contactForm">
