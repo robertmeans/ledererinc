@@ -64,9 +64,9 @@
     }
 
     // $my_email = "craig@ledererinc.com";
-    $my_email = "craigandsuranne@gmail.com";
+    // $my_email = "craigandsuranne@gmail.com";
     // for testing
-    // $my_email = "robert@robertmeans.com";
+    $my_email = "robert@robertmeans.com";
 
     // to let visitor fill in the "from" field leave string below empty 
     $from_email = "";
