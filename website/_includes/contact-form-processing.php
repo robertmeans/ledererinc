@@ -196,7 +196,7 @@
     break;
     }
 ?>
-<form action="index.php#contact" method="post" id="contactForm">
+<form action="index.php#contact" method="post" id="contactForm" onSubmit="return validateEmail(document.forms[0].email.value);">
     <ul>
         <li>
           <label class="text" for="name">Name</label>
