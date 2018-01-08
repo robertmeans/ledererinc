@@ -116,21 +116,28 @@
 
     if(!defined("PHP_EOL")){define("PHP_EOL", strtoupper(substr(PHP_OS,0,3) == "WIN") ? "\r\n" : "\n");}
 
-    function build_message($request_input) {
-        if(!isset($message_output)){
+    function build_message($request_input){
+        if (!isset($message_output)) {
             $message_output ="";
-        } if(!is_array($request_input)) {
+        } if (!is_array($request_input)) {
             $message_output = $request_input;
-        } else { foreach($request_input as $key => $value) {
-            if(!empty($value)){
-                if(!is_numeric($key)) {
-                    $message_output .= str_replace("_"," ",ucfirst($key)).": ".build_message($value).PHP_EOL.PHP_EOL;
-                } else {$message_output .= build_message($value).", ";
-            }
-            }
-        }
-    } return rtrim($message_output,", ");
-}
+        } else {
+            foreach($request_input as $key => $value) {
+                // check that the key of the $_POST variable is not the
+                // g-recaptcha-response before adding it to the message
+                if ($key != 'g-recaptcha-response') {
+
+                    if(!empty($value)) {
+                        if (!is_numeric($key)) {
+                            $message_output .= str_replace("_"," ",ucfirst($key)).": ".build_message($value).PHP_EOL.PHP_EOL;
+                        } else {
+                            $message_output .= build_message($value).", ";
+                        }
+                    }
+                }
+            }   
+        } return rtrim($message_output,", ");
+    }
 
 
     $message = build_message($_REQUEST);
@@ -160,7 +167,7 @@
 
     $headers = "From: {$from_name} <{$_REQUEST['email']}>"."\r\n";
     /* BCC if needed */
-    $headers .= "BCC: robert@evergreenwebdesign.com\r\n";
+    // $headers .= "BCC: robert@evergreenwebdesign.com\r\n";
 
     }
 
