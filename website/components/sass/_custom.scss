@@ -753,7 +753,10 @@ span.assoc-logos {
 }
 @media screen and (max-width: 725px) {
     section#past-projects,
-    section#about {
+    section#about,
+    section#hydromulching,
+    section#land-reclamation,
+    section#erosion-control {
       h2 {
       margin-top: 0px;
     }
@@ -905,6 +908,127 @@ section#project-images {
     }
   }
 }
+
+
+
+#hydromulching {
+  background: url(_images/about-background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  // height: 4000px;
+  height: auto;
+  min-height: 1080px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  h2 {
+    background-color: #470F05;
+    color: #fff;
+    width: 100%;
+    margin-top: 55px;
+  }
+  span.intro {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 90%;
+    margin: 30px auto 280px auto;
+    text-align: left;
+    background-color: rgba(71,97,5,0.8);
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+        > p {
+            margin-bottom: 1em;
+        }
+    }
+}
+
+#land-reclamation {
+  background: url(_images/about-background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  // height: 4000px;
+  height: auto;
+  min-height: 1080px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  h2 {
+    background-color: #470F05;
+    color: #fff;
+    width: 100%;
+    margin-top: 55px;
+  }
+  span.intro {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 90%;
+    margin: 30px auto 280px auto;
+    text-align: left;
+    background-color: rgba(71,97,5,0.8);
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+        > p {
+            margin-bottom: 1em;
+        }    
+    }
+}
+
+#erosion-control {
+  background: url(_images/about-background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  // height: 4000px;
+  height: auto;
+  min-height: 1080px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  h2 {
+    background-color: #470F05;
+    color: #fff;
+    width: 100%;
+    margin-top: 55px;
+  }
+  span.intro {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 90%;
+    margin: 30px auto 280px auto;
+    text-align: left;
+    background-color: rgba(71,97,5,0.8);
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+        > p {
+            margin-bottom: 1em;
+        }    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 930px) {
   #about span.intro img.tractors {
     float: none;
@@ -1074,6 +1198,7 @@ footer {
   p.copyright {
     text-align: right;
     font-size: 0.7em;
+    padding-top: 25px;
   }
   a.additional-info {
     color: #fff;

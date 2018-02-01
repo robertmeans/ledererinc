@@ -1,16 +1,5 @@
-<?php
-	function ewd_copyright($startYear) {
-		$currentYear = date('Y');
-		if ($startYear < $currentYear) {
-			$currentYear = date('y');
-			return "&copy; $startYear&ndash;$currentYear";
-		} else {
-			return "&copy; $startYear";
-		}
-	}
-?>
 <h3>Additional Information</h3>
-	<a class="additional-info" href="hydro-mulching.php">Hydro-mulching</a><br />
+	<a class="additional-info" href="hydromulching.php">Hydromulching | Hydroseeding</a><br />
 	<a class="additional-info" href="land-reclamation.php">Land Reclamation</a><br />
 	<a class="additional-info" href="erosion-control.php">Erosion Control</a>
 	

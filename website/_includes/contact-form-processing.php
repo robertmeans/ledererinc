@@ -1,14 +1,4 @@
-<?php
-    function ewd_copyright($startYear) {
-        $currentYear = date('Y');
-        if ($startYear < $currentYear) {
-            $currentYear = date('y');
-            return "&copy; $startYear&ndash;$currentYear";
-        } else {
-            return "&copy; $startYear";
-        }
-    }
-?>
+
         <?php
             function post_captcha($user_response) {
             $fields_string = '';
@@ -211,7 +201,7 @@
           <textarea noresize name="comments" id="comments" tabindex="30"></textarea>
         </li>
         <li>
-           <div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6Ldm-CYUAAAAAAK2CaRAk2cmsjpSj-ltT2Qu6jeV"></div>
+           <!-- <div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6Ldm-CYUAAAAAAK2CaRAk2cmsjpSj-ltT2Qu6jeV"></div> -->
         </li>
         <li>
             <button id="confirm" disabled>Check Captcha above to enable Send</button>

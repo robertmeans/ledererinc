@@ -1,4 +1,4 @@
-<?php $layout_context = "land-reclamation"; ?>
+<?php $layout_context = "hydro-mulching"; ?>
 <?php require('_includes/head.php'); ?>
 <body>
 <div id="top-of-page"></div>
@@ -7,16 +7,17 @@
 <span onclick="openNav()" class="mobile-toggle"><img src="_images/mobile-nav-icon.png"></span>
 <?php require('_includes/nav2.php'); ?>
 
-<section id="land-reclamation">
-	<h2>Land Reclamation</h2>
+<section id="hydromulching">
+	<h2>Hydromulching | Hydroseeding</h2>
 	<span class="intro">
-		<p>Land reclamation is the process of restoring an area to its natural state after damage has occured. </p>
+		<p>Hydromulching also called hydroseeding, hydraulic mulch seeding or hydro mulching is the process where a hose is used as an efficient method to spray a special slurry mixture onto a large area of land and create lawn vegetaion in no time at all.</p>
+		<p>If planting a large area, hydromulching can be completed in a short amount of time. If having to seed a steep area the advantages are obvious.</p>
 		
 		
 
 	</span>
 <?php require('_includes/footer.php'); ?>
-</section><!-- #land-reclamation -->
+</section><!-- #hydromulching -->
 
 </div><!-- #wrapper -->
 

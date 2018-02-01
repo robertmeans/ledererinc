@@ -1285,7 +1285,10 @@ section h2 {
 }
 @media screen and (max-width: 725px) {
   section#past-projects h2,
-  section#about h2 {
+  section#about h2,
+  section#hydromulching h2,
+  section#land-reclamation h2,
+  section#erosion-control h2 {
     margin-top: 0px;
   }
 }
@@ -1479,6 +1482,150 @@ section#project-images div.image-container div.image-row div.image-box span.imag
 #about span.intro div.img-containter img.img2 {
   width: 50%;
   max-width: 180px;
+}
+
+#hydromulching {
+  background: url(_images/about-background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: auto;
+  min-height: 1080px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#hydromulching h2 {
+  background-color: #470F05;
+  color: #fff;
+  width: 100%;
+  margin-top: 55px;
+}
+#hydromulching span.intro {
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  width: 90%;
+  margin: 30px auto 280px auto;
+  text-align: left;
+  background-color: rgba(71, 97, 5, 0.8);
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+}
+#hydromulching span.intro > p {
+  margin-bottom: 1em;
+}
+
+#land-reclamation {
+  background: url(_images/about-background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: auto;
+  min-height: 1080px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#land-reclamation h2 {
+  background-color: #470F05;
+  color: #fff;
+  width: 100%;
+  margin-top: 55px;
+}
+#land-reclamation span.intro {
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  width: 90%;
+  margin: 30px auto 280px auto;
+  text-align: left;
+  background-color: rgba(71, 97, 5, 0.8);
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+}
+#land-reclamation span.intro > p {
+  margin-bottom: 1em;
+}
+
+#erosion-control {
+  background: url(_images/about-background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: auto;
+  min-height: 1080px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#erosion-control h2 {
+  background-color: #470F05;
+  color: #fff;
+  width: 100%;
+  margin-top: 55px;
+}
+#erosion-control span.intro {
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  width: 90%;
+  margin: 30px auto 280px auto;
+  text-align: left;
+  background-color: rgba(71, 97, 5, 0.8);
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+}
+#erosion-control span.intro > p {
+  margin-bottom: 1em;
 }
 
 @media screen and (max-width: 930px) {
@@ -1676,6 +1823,7 @@ footer h3 {
 footer p.copyright {
   text-align: right;
   font-size: 0.7em;
+  padding-top: 25px;
 }
 footer a.additional-info {
   color: #fff;
