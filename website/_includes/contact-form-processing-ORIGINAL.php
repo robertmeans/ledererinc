@@ -60,10 +60,10 @@
     local instructions in: Tools/PHP FormMail
     */
     // $my_email = "craig@ledererinc.com";
-    // $my_email = "craigandsuranne@gmail.com";
+    $my_email = "craigandsuranne@gmail.com";
     
     // for testing
-    $my_email = "robert@robertmeans.com";
+    // $my_email = "robert@robertmeans.com";
     /* let visitor fill in the "from" field - leave string below empty */
     $from_email = "";
     /* below is tied into html at btm of this php. unnecessary extra step so commented out. */

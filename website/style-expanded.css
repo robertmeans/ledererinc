@@ -1484,6 +1484,70 @@ section#project-images div.image-container div.image-row div.image-box span.imag
   max-width: 180px;
 }
 
+section#past-projects p,
+section#about p,
+section#hydromulching p,
+section#land-reclamation p,
+section#erosion-control p {
+  line-height: 1.5em;
+}
+section#past-projects h3,
+section#about h3,
+section#hydromulching h3,
+section#land-reclamation h3,
+section#erosion-control h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 1.2em;
+}
+section#past-projects figure,
+section#about figure,
+section#hydromulching figure,
+section#land-reclamation figure,
+section#erosion-control figure {
+  float: left;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  border: 1px solid #000;
+  padding: 0.5em;
+  margin: 0 1em 1em 0;
+  background-color: #fff;
+}
+section#past-projects figure figcaption,
+section#about figure figcaption,
+section#hydromulching figure figcaption,
+section#land-reclamation figure figcaption,
+section#erosion-control figure figcaption {
+  padding: 10px 0px;
+  color: #333;
+}
+section#past-projects span.btm-links,
+section#about span.btm-links,
+section#hydromulching span.btm-links,
+section#land-reclamation span.btm-links,
+section#erosion-control span.btm-links {
+  display: block;
+  text-align: center;
+  margin: 3em auto 1em auto;
+  color: #fff;
+}
+section#past-projects span.btm-links > a,
+section#about span.btm-links > a,
+section#hydromulching span.btm-links > a,
+section#land-reclamation span.btm-links > a,
+section#erosion-control span.btm-links > a {
+  color: #fff;
+  text-decoration: none;
+}
+section#past-projects span.btm-links > a:hover,
+section#about span.btm-links > a:hover,
+section#hydromulching span.btm-links > a:hover,
+section#land-reclamation span.btm-links > a:hover,
+section#erosion-control span.btm-links > a:hover {
+  text-decoration: underline;
+}
+
 #hydromulching {
   background: url(_images/about-background.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -1508,18 +1572,6 @@ section#project-images div.image-container div.image-row div.image-box span.imag
 }
 #hydromulching span.intro {
   color: #fff;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-align-content: center;
-      -ms-flex-line-pack: center;
-          align-content: center;
   width: 90%;
   margin: 30px auto 280px auto;
   text-align: left;
@@ -1530,6 +1582,11 @@ section#project-images div.image-container div.image-row div.image-box span.imag
 }
 #hydromulching span.intro > p {
   margin-bottom: 1em;
+}
+#hydromulching span.intro img.hydromulching-img {
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid #000;
 }
 
 #land-reclamation {
@@ -1556,18 +1613,6 @@ section#project-images div.image-container div.image-row div.image-box span.imag
 }
 #land-reclamation span.intro {
   color: #fff;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-align-content: center;
-      -ms-flex-line-pack: center;
-          align-content: center;
   width: 90%;
   margin: 30px auto 280px auto;
   text-align: left;
@@ -1578,6 +1623,11 @@ section#project-images div.image-container div.image-row div.image-box span.imag
 }
 #land-reclamation span.intro > p {
   margin-bottom: 1em;
+}
+#land-reclamation span.intro img.land-reclamation-img {
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid #000;
 }
 
 #erosion-control {
@@ -1604,18 +1654,6 @@ section#project-images div.image-container div.image-row div.image-box span.imag
 }
 #erosion-control span.intro {
   color: #fff;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-align-content: center;
-      -ms-flex-line-pack: center;
-          align-content: center;
   width: 90%;
   margin: 30px auto 280px auto;
   text-align: left;
@@ -1627,7 +1665,31 @@ section#project-images div.image-container div.image-row div.image-box span.imag
 #erosion-control span.intro > p {
   margin-bottom: 1em;
 }
+#erosion-control span.intro img.erosion-control-img {
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid #000;
+}
 
+@media screen and (max-width: 900px) {
+  section#hydromulching span.intro img.hydromulching-img,
+  section#hydromulching span.intro img.land-reclamation-img,
+  section#land-reclamation span.intro img.hydromulching-img,
+  section#land-reclamation span.intro img.land-reclamation-img,
+  section#erosion-control span.intro img.hydromulching-img,
+  section#erosion-control span.intro img.land-reclamation-img {
+    width: 100%;
+    max-width: 600px;
+  }
+  section#hydromulching span.intro figure,
+  section#land-reclamation span.intro figure,
+  section#erosion-control span.intro figure {
+    float: none;
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto 1em auto;
+  }
+}
 @media screen and (max-width: 930px) {
   #about span.intro img.tractors {
     float: none;

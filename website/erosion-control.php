@@ -10,9 +10,21 @@
 <section id="erosion-control">
 	<h2>Erosion Control</h2>
 	<span class="intro">
-		<p>Erosion can occur in a number of ways including nature-related incidents and man made influences. Left unchecked the results can often be disastrous.</p>
 		
-		
+		<figure>
+		<img class="erosion-control-img" src="_images/erosion-control-denver-colorado.jpg">
+		<figcaption>Erosion Control - Denver, Colorado</figcaption>
+		</figure>
+
+		<h3>Erosion Control </h3>
+		<p>Erosion control is a key component in the overall integrity of your landscape project and one that deserves careful, skilled and professional management. The long term impact of a well thought out erosion control strategy will help avoid expensive future problems and also assist in various environmental considerations.</p>
+
+		<p>When having to account for wind or water erosion in agriculture, land development or land reclamation projects, there are essential techniques to preclude future impacts such as water pollution, wildlife habitat loss and property loss. We take every step to ensure a successful solution and with years of experience, we pride ourselves in a successful history.</p>
+
+		<p>At Lederer, Inc. erosion control has long been an essential strategy in our overall, comprehensive approach to land reclamation and land management. Our projects have presented a full spectrum of geographical challenges, each met with a unique solution for lasting results.</p>
+
+		<span class="btm-links"><a href="hydromulching.php">Hydromulching</a> | <a href="land-reclamation.php">Land Reclamation</a> | Erosion Control</span>
+	</span>
 
 	</span>
 <?php require('_includes/footer.php'); ?>

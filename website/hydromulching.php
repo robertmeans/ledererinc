@@ -10,12 +10,23 @@
 <section id="hydromulching">
 	<h2>Hydromulching | Hydroseeding</h2>
 	<span class="intro">
-		<p>Hydromulching also called hydroseeding, hydraulic mulch seeding or hydro mulching is the process where a hose is used as an efficient method to spray a special slurry mixture onto a large area of land and create lawn vegetaion in no time at all.</p>
-		<p>If planting a large area, hydromulching can be completed in a short amount of time. If having to seed a steep area the advantages are obvious.</p>
 		
-		
+		<figure>
+		<img class="hydromulching-img" src="_images/hydromulching-hydroseeding-denver-colorado.jpg">
+		<figcaption>Hydromulching | Hydroseeding - Denver, Colorado</figcaption>
+		</figure>
 
+		<h3>What is Hydromulching or Hydroseeding?</h3>
+		<p>Lederer, Inc. is a Denver, Colorado based company specializing in a full spectrum of land reclamation projects including hydroseeding (also called hydro-mulching, hydraseeding or hydraulic mulch seeding). Hydroseeding is a very effective erosion control process that plants a large area in a short period of time. Used effectively on hillsides and sloping landscapes, results are quick and the cost advantage of hydroseeding is notable when compared to planting sod.</p>
+
+		<p>There are several benefits to hydroseeding including the option to select specific slurry components to suit the geographic characteristics and climate of a particular location. The various components are designed to help adhere the seed to the ground while protecting them from sun, wind and soil erosion. In Denver, Colorado and the surrounding areas this is particuarly important as our extreme weather conditions present challenges unique to our area. Once rooted the result is a natural surface structure that can be maintained as you would any other lawn surface.</p>
+
+		<h3>Why Use Hydromulching | Hydroseeding?</h3>
+
+		<p>The means by which the slurry is applied via spray allows us to coat surfaces too steep or dangerous to access otherwise. We can accomplish this in a short amount of time and show results in only a few short weeks. Without the added expense of heavy equipment and additional man hours the hydromulching solution is an obvious choice for many land reclamation projects.</p>
+		<span class="btm-links">Hydromulching | <a href="land-reclamation.php">Land Reclamation</a> | <a href="erosion-control.php">Erosion Control</a></span>
 	</span>
+
 <?php require('_includes/footer.php'); ?>
 </section><!-- #hydromulching -->
 

@@ -910,6 +910,48 @@ section#project-images {
 }
 
 
+section#past-projects,
+section#about,
+section#hydromulching,
+section#land-reclamation,
+section#erosion-control {
+  p {
+    line-height: 1.5em;
+  }
+    h3 {
+      font-size: 1.2em;
+      font-weight: bold;
+    margin-bottom: 1.2em;
+  }
+  figure {
+    float: left;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    border: 1px solid #000;
+    padding: 0.5em;
+    margin: 0 1em 1em 0;
+    background-color: #fff;
+      figcaption {
+        padding: 10px 0px;
+        color: #333;
+      }
+  }
+  span.btm-links {
+    display: block;
+    text-align: center;
+    margin: 3em auto 1em auto;
+    color: #fff;
+    > a {
+      color: #fff;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
 
 #hydromulching {
   background: url(_images/about-background.jpg) no-repeat center center fixed;
@@ -928,9 +970,9 @@ section#project-images {
   }
   span.intro {
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+    // display: flex;
+    // flex-direction: column;
+    // align-content: center;
     width: 90%;
     margin: 30px auto 280px auto;
     text-align: left;
@@ -940,6 +982,14 @@ section#project-images {
     border: 1px solid #fff;
         > p {
             margin-bottom: 1em;
+            // display: inline;
+        }
+        img.hydromulching-img {
+          width: 100%;
+          max-width: 500px;
+          border: 1px solid #000;
+          // float: left;
+          // margin: 0px 1em 1em 0;
         }
     }
 }
@@ -961,9 +1011,9 @@ section#project-images {
   }
   span.intro {
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+    // display: flex;
+    // flex-direction: column;
+    // align-content: center;
     width: 90%;
     margin: 30px auto 280px auto;
     text-align: left;
@@ -973,7 +1023,15 @@ section#project-images {
     border: 1px solid #fff;
         > p {
             margin-bottom: 1em;
-        }    
+            // display: inline;
+        }
+        img.land-reclamation-img {
+          width: 100%;
+          max-width: 500px;
+          border: 1px solid #000;
+          // float: left;
+          // margin: 0px 1em 1em 0;
+        }
     }
 }
 
@@ -994,9 +1052,9 @@ section#project-images {
   }
   span.intro {
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+    // display: flex;
+    // flex-direction: column;
+    // align-content: center;
     width: 90%;
     margin: 30px auto 280px auto;
     text-align: left;
@@ -1006,20 +1064,38 @@ section#project-images {
     border: 1px solid #fff;
         > p {
             margin-bottom: 1em;
-        }    
+            // display: inline;
+        }
+        img.erosion-control-img {
+          width: 100%;
+          max-width: 500px;
+          border: 1px solid #000;
+          // float: left;
+          // margin: 0px 1em 1em 0;
+        }
     }
 }
 
+@media screen and (max-width: 900px) {
+  section#hydromulching,
+  section#land-reclamation,
+  section#erosion-control {
+    span.intro {
+      img.hydromulching-img,
+      img.land-reclamation-img {
 
-
-
-
-
-
-
-
-
-
+        width: 100%;
+        max-width: 600px;
+      }
+      figure {
+        float: none;
+        width: 96%;
+        max-width: 600px;
+        margin: 0 auto 1em auto;
+      }
+    }
+  }
+}
 
 
 

@@ -54,9 +54,9 @@
     }
 
     // $my_email = "craig@ledererinc.com";
-    // $my_email = "craigandsuranne@gmail.com";
+    $my_email = "craigandsuranne@gmail.com";
     // for testing
-    $my_email = "robert@robertmeans.com";
+    // $my_email = "robert@robertmeans.com";
 
     // to let visitor fill in the "from" field leave string below empty 
     $from_email = "";
@@ -201,7 +201,7 @@
           <textarea noresize name="comments" id="comments" tabindex="30"></textarea>
         </li>
         <li>
-           <!-- <div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6Ldm-CYUAAAAAAK2CaRAk2cmsjpSj-ltT2Qu6jeV"></div> -->
+           <div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6Ldm-CYUAAAAAAK2CaRAk2cmsjpSj-ltT2Qu6jeV"></div>
         </li>
         <li>
             <button id="confirm" disabled>Check Captcha above to enable Send</button>
